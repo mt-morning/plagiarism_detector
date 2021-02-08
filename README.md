@@ -8,12 +8,17 @@ Eiki Kan, Lisa Lam, Robert (Bobby) Lupo
 ## Summary
 As part of the coursework for CS5500: Foundations of Software Engineering, my teammates and I applied what we learned about TypeScript, Agile methodology, various software development life cycles (SDLC), test-driven development, etc. to a semester-long project: a plagiarism detector for any language of our choosing. The project was required to be implemented in TypeScript and make use of either the [MaterialUI](https://material-ui.com/) or [Ant Design](https://ant.design/) front-end frameworks. Another requirement is for our detector to be able to handle plagiarism-detection avoidance techniques such as changing variable names, moving code in or out of functions, rearranging code, changing comments, etc. 
 
+### Project Screenshots
+![Login page for plagiarism detector](images\login.png)
+![File upload page for suspect JavaScript files](images\file_upload.png)
+![Plagiarism summary page with links to suspect code blocks](images\summary_preview.png)
+![Similarity page showing suspect files and highlighted code blocks in further detail](images\specific_similarity.png)
+
 ### Process
 Using the Agile methodology of software development, we met regularly to conduct plagiarism detection research, determine what use cases we thought we could implement in the given timeframe, and implement and integrate work that was done both individually and in pairs/groups. We informally split our team of four into a front-end team and a back-end team, communicated the features expected from either end, and collaborated to combine our parts into a cohesive application. At the end of the semester, we presented a working demonstration of our project to the class and instructors and submitted a final report.
 
 ### Learning
-None of us were familiar with TypeScript, though altogether, we had combined experience with web development, database management, mobile application development, and other areas. **At the end of this project, we were more familiar with TypeScript, JavaScript, and React, which we used to implement our project. We also used [Lucidchart](
-https://lucid.co/) and [Figma](https://www.figma.com/) to diagram and prototype our project as part of the design process**. Additionally, we learned more about SDLCs by applying the Agile methodology to our working process and we learned about creating and using REST API endpoints.
+None of us were familiar with TypeScript, though altogether, we had combined experience with web development, database management, mobile application development, and other areas. **At the end of this project, we were more familiar with TypeScript, JavaScript, and React, which we used to implement our project. We also used [Lucidchart](https://lucid.co/) and [Figma](https://www.figma.com/) to diagram and prototype our project as part of the design process**. Additionally, we learned more about SDLCs by applying the Agile methodology to our working process and we learned about creating and using REST API endpoints.
 
 
 ## Future Endeavors
