@@ -9,10 +9,17 @@ Eiki Kan, Lisa Lam, Robert (Bobby) Lupo
 As part of the coursework for CS5500: Foundations of Software Engineering, my teammates and I applied what we learned about TypeScript, Agile methodology, various software development life cycles (SDLC), test-driven development, etc. to a semester-long project: a plagiarism detector for any language of our choosing. The project was required to be implemented in TypeScript and make use of either the [MaterialUI](https://material-ui.com/) or [Ant Design](https://ant.design/) front-end frameworks. Another requirement is for our detector to be able to handle plagiarism-detection avoidance techniques such as changing variable names, moving code in or out of functions, rearranging code, changing comments, etc. 
 
 ### Project Screenshots
+#### Login
 <img src='images/login.png' alt='Login page for plagiarism detector' width='400'/>
-<img src='images/file_upload.png' alt='File upload page for suspect JavaScript files' width='400'/>
+
+#### File upload utilizing Express file module
+<div display='inline-block'><img src='images/file_upload.png' alt='File upload page for suspect JavaScript files' width='400'/><img src='images/upload_success.png' alt='Confirm success of file upload' width='400'/></div>
+
+#### After running plagiarism detection, viewing the similarities
 <img src='images/summary_preview.png' alt='Plagiarism summary page with links to suspect code blocks' width='400'/>
 <img src='images/specific_similarity.png' alt='Similarity page showing suspect files and highlighted code blocks in further detail' width='400'/>
+
+#### Example: was able to detect a function that returned early, probably as a filler to confuse a detector that would compare line by line or by text difference
 <div display='inline-block'><img src='images/program1_code.png' alt='Login page for plagiarism detector' width='400'/>
 <img src='images/program2_code.png' alt='Login page for plagiarism detector' width='400'/></div>
 
