@@ -1,4 +1,4 @@
-# Plagiarism Detector (CS5500, Northeastern University)
+# Plagiarism Detector (CS5500, Northeastern University, Fall 2020)
 ## Collaborators: 
 Eiki Kan, Lisa Lam, Robert (Bobby) Lupo
 
